@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Anime_Is_my_life.Models
 {
-    public class Publisher
+    public class Publisher //wip
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

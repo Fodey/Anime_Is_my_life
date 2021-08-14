@@ -17,7 +17,7 @@ namespace Anime_Is_my_life.Models
         public int AmountVolumes { get; set; }
         public int Year { get; set; }
         public List<Review> Reviews { get; set; } = new List<Review>();
-        /* public Publisher
-         public Mangaka */
+        public Publisher Publisher { get; set; }
+         public Mangaka Mangaka { get; set; }
     }
 }

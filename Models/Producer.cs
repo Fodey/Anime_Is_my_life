@@ -14,10 +14,10 @@ namespace Anime_Is_my_life.Models
         public int ProducerID { get; set; }
         public string Name { get; set; }
         public DateTime Founded { get; set; }
-        public string Founder { get; set; }
+        public List<Person> Founders { get; set; } = new List<Person>();
         public List<Person> Owner { get; set; } = new List<Person>();
         public int NumberofEmployees { get; set; }
         public string Industry { get; set; }
-        //public Genre
+        public List<Genre> Genres = new List<Genre>();
     }
 }

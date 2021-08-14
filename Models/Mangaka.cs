@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Anime_Is_my_life.Models
 {
-    public class Mangaka
+    public class Mangaka //maybe should add something here
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int MangakaID { get; set; }
-        public List<Person> Mangakas = new List<Person>();
+        public Person MangakaPerson { get; set; }
         public List<Manga> Mangas { get; set; } = new List<Manga>();
 
     }

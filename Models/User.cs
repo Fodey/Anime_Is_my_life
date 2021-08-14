@@ -17,6 +17,6 @@ namespace Anime_Is_my_life.Models
         public string password { get; set; }
         public string email { get; set; }
 
-        public DateTime dateofbirth { get; set; }
+        public DateTime DateofBirth { get; set; }
     }
 }

@@ -12,9 +12,9 @@ namespace Anime_Is_my_life.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int DubberID { get; set; }
-        public List<User> User { get; set; } = new List<User>();
-        public List<Person> Person { get; set; } = new List<Person>();
-        public List<Anime> Animes { get; set; } = new List<Anime>();
-        public List<Manga> Mangas { get; set; } = new List<Manga>();
+        public User User { get; set; }
+        public Person Person { get; set; }
+        public List<Anime> Animes { get; set; } = new List<Anime>(); //dubbed animes
+        public List<Manga> Mangas { get; set; } = new List<Manga>(); //Can you dub a manga?
     }
 }
