@@ -14,7 +14,9 @@ namespace Anime_Is_my_life.Models
         public int PersonID { get; set; }
         public string FullName { get; set; }
         public string Nationality { get; set; }
-        public string Area { get; set; } //work area (example: editor)
         public DateTime Born { get; set; }
+
+        public List<Role> Area = new List<Role>();
+
     }
 }
